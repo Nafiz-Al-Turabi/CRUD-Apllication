@@ -36,8 +36,8 @@ const App = () => {
   const fetchTask = async () => {
     try {
       const response = await axiosInstance.get('/tasks');
-      setTasks(response.data);
-      console.log(response.data);
+      setTasks(response.data.reverse());
+      // console.log(response.data);
     } catch (error) {
       console.error('Failed to get task:', error);
       setError('Failed to get task. Please try again.');
