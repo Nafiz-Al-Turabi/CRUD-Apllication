@@ -1,0 +1,21 @@
+
+/* For WebKit browsers (Chrome, Safari, etc.) */
+.scrollable-container::-webkit-scrollbar {
+  width: 2px; 
+}
+
+/* Track */
+.scrollable-container::-webkit-scrollbar-track {
+  background: #c9c9c9; 
+}
+
+/* Handle */
+.scrollable-container::-webkit-scrollbar-thumb {
+  background: #888; 
+  border-radius: 10px; 
+}
+
+/* Handle on hover */
+.scrollable-container::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+}
